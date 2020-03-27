@@ -41,12 +41,15 @@ h1{
 .ba-list li{
 	padding: 20px;
 	align-items: center;
-	display: flex;
-	flex-direction: column;
+	display: block;
+	text-align: center;
 	line-height: 30px;
 }
 .ba-list li:hover{
 	opacity:1;
+}
+.ba-list li span{
+	display: block;
 }
 .first-type-container{
 	width:50%;
